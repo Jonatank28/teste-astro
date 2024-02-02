@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import FeedbackForm from "../components/FeedbackForm";
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <FeedbackForm client:only />
+  </main>
+</Layout>
